@@ -2,8 +2,13 @@
 DNA 3D Structure
 
 ## Nucle3D Structure Format
-(Requirement: Extendable, Multi Resolution, Convert to Binary, Indexed)
+```
+GENOME  hg38    
+CHR chr1  250,000(or 250000)
+i,x,y,z
+..
+```
+i is 0-index
+gap permitted
 
-Resolution
-Chromo Name
-I,X,Y,Z
+Multi Resolution permitted
