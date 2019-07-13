@@ -3,10 +3,11 @@ DNA 3D Structure
 
 ## Nucle3D Structure Format
 ```
-GENOME  hg38          #Tab split
+GENOME  hg38          # Tab split
 [FEATURE1]  [VALUE1]  # User define features, tab split (CHR and GENOME COL[\d+] key word reserved)
 [FEATURE2]  [VALUE2]
-COL0 [NAME]  [TYPE(int,string,float)] [DEFAULT VALUE IF MISSING or "NA"]   #Tab Split
+...
+COL0 [NAME]  [TYPE(int,string,float)] [DEFAULT VALUE IF MISSING or "NA"]   # Tab Split
 COL1 [NAME]  [TYPE] [DEFAULT VALUE IF MISSING or "NA"]
 ...
 CHR chr1  250,000(or 250000)  # Tab split
