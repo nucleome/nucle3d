@@ -1,7 +1,7 @@
 # nucle3d
 DNA 3D Structure
 
-## Nucle3D Structure Format
+## Nucle3D Structure Text Format
 ```
 GENOME  hg38          # Tab split
 [FEATURE1]  [VALUE1]  # User define features, tab split (CHR and GENOME COL[\d+] key word reserved)
@@ -18,3 +18,6 @@ i,x,y,z,col0,col1...  # Other annotation permitted
 i is 0-index, gap of index i permitted
 
 Multi Resolution for same chromosome permitted
+
+
+## Nucle3D Structure Binary Format
