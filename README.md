@@ -21,3 +21,6 @@ Multi Resolution for same chromosome permitted
 
 
 ## Nucle3D Structure Binary Format
+
+
+## Nucle3D Data Structure
