@@ -24,3 +24,7 @@ Multi Resolution for same chromosome permitted
 
 
 ## Nucle3D Data Structure
+
+### JavaScript
+
+### GoLang
