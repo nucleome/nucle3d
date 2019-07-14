@@ -3,6 +3,7 @@ DNA 3D Structure
 
 ## Nucle3D Structure Text Format
 ```
+TITLE   [NAME]        # Tab split
 GENOME  hg38          # Tab split
 [FEATURE1]  [VALUE1]  # User define features, tab split (CHR and GENOME COL[\d+] key word reserved)
 [FEATURE2]  [VALUE2]
