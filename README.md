@@ -31,4 +31,4 @@ nucleserver file --root 3D
 
 You should see a message like this "Please open http://127.0.0.1:8611". This means that all the 3D structural data can be retrieved under URL **http://127.0.0.1:8611/get/**. You can copy the URL of the 3D structural data into the input data box in 3D structure panel of the Nucleome Browser.
 
-![Use your own structural data](img/Load_custom_3d.png)
+![Use your own structural data](img/Load_custom_3d.jpg)
