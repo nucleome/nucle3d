@@ -5,6 +5,8 @@ Nucleome Browser use nucle3D format to represent DNA 3D Structure.
 ## Nucle3D Structure format
 
 An example of a nucle3D file is shown below. Each file represents a 3D structure of chromatin with a fixed bin size. The first several rows (tab-delimited) indicate the name (TITLE) of this structure, genome assembly version (GENOME), and bin size (BINSIZE). Note that the nucle3D format requires that all chromatin segments have the same bin size and those chromatin segments are non-overlapping. For each chromosome, a row starting with **CHR <chrom>** tells to which chromosome the following bins belongs. Then, the following bins show the bin-id (0-base) and XYZ positions of this chromatin segment. For example, if the bin-size is 100kb, the first bin (0 to 100kb) should have bin-id **0**. Bin-id and XYZ positions are separated by comma as shown in the example below. You can skip bins if there is no data on those bins.
+  
+Support for variable bin sizes, diploid genome, and visualization of nuclear bodies will be added in the next version of the Nucle3D format. 
 
 ```
 TITLE   [NAME]        # Tab split
