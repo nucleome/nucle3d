@@ -31,12 +31,17 @@ You can put all 3D structural data in a folder (e.g. 3D). You can then start a d
 nucleserver file --root 3D
 ```
 
-You should see a message like this "Please open http://127.0.0.1:8611". This means that all the 3D structural data can be retrieved under URL **http://127.0.0.1:8611/get/**. You can copy the URL of the 3D structural data into the input data box in 3D structure panel of the Nucleome Browser.
+You should see a message like this "Please open http://127.0.0.1:8611". This means that all the 3D structural data can be retrieved under URL **http://127.0.0.1:8611/get/**. You can copy the URL of the 3D structural data into the input data box in the 3D structure panel of the Nucleome Browser.
 
 ![Use your own structural data](img/Load_custom_3d.jpg)
 
-We have included a demo data in this repo. You can start from this demo. Once you clone this repo and install nucleserver. You can start a 3D data server using the following command .
+We have also included a demo data in this repo. You can start from this demo. Once you clone this repo and install nucleserver. You can start a 3D data server using the following command .
 
 ```
 nucleserver file --root data
 ```
+
+You can then copy the following URL of the 3D structure data into the input data box in the 3D structure panel. You will then see the 3D structure.
+
+![Load demo data](img/demo_figure.jpg)
+
