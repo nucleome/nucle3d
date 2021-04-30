@@ -41,7 +41,7 @@ We have also included a demo data in this repo. You can start from this demo. On
 nucleserver file --root data
 ```
 
-You can then copy the following URL of the 3D structure data into the input data box in the 3D structure panel. You will then see the 3D structure.
+You can then copy the following URL of the 3D structure data (http://127.0.0.1:8611/get/K562.nucle3d) into the input data box in the 3D structure panel. You will then see the 3D structure.
 
 ![Load demo data](img/demo_figure.jpg)
 
