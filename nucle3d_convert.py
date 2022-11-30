@@ -1,7 +1,7 @@
 #!/home/yangz6/Software/Python-2.7.5/python-2.7.5
 # Programmer : Yang Zhang 
 # Contact: yzhan116@illinois.edu
-# Last-modified: 30 Nov 2022 01:30:55 PM
+# Last-modified: 30 Nov 2022 02:06:13 PM
 
 import os,sys,argparse
 import math
@@ -81,7 +81,7 @@ class Structure(object):
                 print("CHR\t%s" % (_bin.chrom), file = fout)
                 last_chrom = _bin.chrom
             idx = math.floor(_bin.start / self.res)
-            print("%d,%.8f.%.8f,%.8f" % (idx, _bin.pos.x, _bin.pos.y, _bin.pos.z), file = fout)
+            print("%d,%.8f,%.8f,%.8f" % (idx, _bin.pos.x, _bin.pos.y, _bin.pos.z), file = fout)
  
 def species_lookup(assembly_id):
     table = {'hg19': 'human', 'hg38': 'human', 'mm10': 'mouse', 'sacCer3': 'yeast'}
